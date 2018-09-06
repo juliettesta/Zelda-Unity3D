@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4382737F-4CF6-6E6E-A7E0-911DB66C46CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_4;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Asset à trier\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+     <Compile Include="Assets\Asset à trier\Particle Ingredient Pack\Script\csColorChangerinSampleScene.cs" />
+     <Compile Include="Assets\Asset à trier\Particle Ingredient Pack\Script\csDemoScenceControl.cs" />
+     <Compile Include="Assets\Asset à trier\Particle Ingredient Pack\Script\csMouseOrbit.cs" />
+     <Compile Include="Assets\Asset à trier\Particle Ingredient Pack\Script\csParticleMake.cs" />
+     <Compile Include="Assets\Asset à trier\Particle Ingredient Pack\Script\csRotate.cs" />
+     <Compile Include="Assets\Environnement\ApparitionCoffre.cs" />
+     <Compile Include="Assets\Environnement\ApparitionSouris.cs" />
+     <Compile Include="Assets\Environnement\ChgmtSceneStart.cs" />
+     <Compile Include="Assets\Environnement\ChgmtSceneTemple.cs" />
+     <Compile Include="Assets\Environnement\Cle.cs" />
+     <Compile Include="Assets\Environnement\CollisionCoffre.cs" />
+     <Compile Include="Assets\Environnement\CollisionHerbe.cs" />
+     <Compile Include="Assets\Environnement\CollisionInterrupteur.cs" />
+     <Compile Include="Assets\Environnement\CollisionJarre.cs" />
+     <Compile Include="Assets\Environnement\CollisionPasserelle.cs" />
+     <Compile Include="Assets\Environnement\CollisionPasserelleTrou.cs" />
+     <Compile Include="Assets\Environnement\CollisionPillier.cs" />
+     <Compile Include="Assets\Environnement\CollisionPlan.cs" />
+     <Compile Include="Assets\Environnement\CollisionPorteBoss.cs" />
+     <Compile Include="Assets\Environnement\CollisionReinitialisation.cs" />
+     <Compile Include="Assets\Environnement\GameOver.cs" />
+     <Compile Include="Assets\Environnement\InterrupteurBoss.cs" />
+     <Compile Include="Assets\Environnement\Interrupteurporte.cs" />
+     <Compile Include="Assets\Environnement\OpenChest.cs" />
+     <Compile Include="Assets\Environnement\PierreEntree.cs" />
+     <Compile Include="Assets\Environnement\Play.cs" />
+     <Compile Include="Assets\Environnement\Start\Island\Scripts\CharacterMovement.cs" />
+     <Compile Include="Assets\Environnement\Start\Island\Scripts\FixedTiling.cs" />
+     <Compile Include="Assets\Environnement\Start\Island\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Environnement\Start\Island\Scripts\WaterScroller.cs" />
+     <Compile Include="Assets\Environnement\Temple\RPGPackFree\Scripts\BowString.cs" />
+     <Compile Include="Assets\GlobalControl\GlobalControl.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\CharacterStats.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\CollisionEpee.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\CollisionPNJ.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\CollisionPNJEntree.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\CollisionPNJMaison.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Monstres\Boss.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Monstres\DetectionCible.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Monstres\HealthBarBoss.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Monstres\MonstersStats.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Monstres\MonstreCollision.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Monstres\MouvementMonstre.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Player\ColliderAttack.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Player\PlayerCollision.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Player\PlayerController.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Player\PlayerStats.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Player\Souris.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Player\Tir.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Player\destroyBullet.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Scripts Player\footSteps.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Zelda\ApparitionZelda.cs" />
+     <Compile Include="Assets\Player &amp; PNJ\Zelda\CollisionZelda.cs" />
+     <None Include="Assets\Textures sol ciel\BOXOPHOBIC\Skybox - Cubemap Extended\Shaders\Skybox - Cubemap Extended.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
